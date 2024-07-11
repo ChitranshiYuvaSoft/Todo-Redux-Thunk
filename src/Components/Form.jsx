@@ -62,6 +62,7 @@ const Form = () => {
           className="form-control"
           name="title"
           value={title}
+          required
           onChange={handleChange}
         />
         <textarea
@@ -70,6 +71,7 @@ const Form = () => {
           placeholder="Enter Description Here"
           className="form-control my-3"
           name="des"
+          required
           value={des}
           onChange={handleChange}
         ></textarea>

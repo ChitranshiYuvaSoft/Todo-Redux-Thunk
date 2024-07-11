@@ -3,6 +3,7 @@ import rootReducer from "./combineReducer";
 
 const store = createStore(
     rootReducer,
+
 );
 
 
